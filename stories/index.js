@@ -8,6 +8,7 @@ import DatePicker from '../lib/index.js';
 import './index.css';
 
 const props = {
+    onChange: console.log,
     value: new Date(),
     isPopup: false,
     theme: 'android'
